@@ -9,7 +9,7 @@ pipeline {
 
     stages {
 
-        stage('Verificación SCM') {
+        stage('SCM Verification') {
           steps {
             script {
               checkout scm
